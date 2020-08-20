@@ -1,0 +1,21 @@
+#fullpage .row img {
+	-webkit-animation-name: row;
+	animation-name: row;
+	-webkit-animation-duration: 1.4s;
+	animation-duration: 1.4s;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+
+/* row transform */
+@-webkit-keyframes row {
+35% {transform:translateY(15px);}
+100% {transform:translateY(0px)}
+}
+@keyframes row {
+35% {transform:translateY(15px);}
+100% {transform:translateY(0px)}
+}
